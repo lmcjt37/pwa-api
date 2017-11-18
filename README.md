@@ -6,9 +6,14 @@ API for saving and deleting users subscription IDs, as well as sending push noti
 ## Getting Started
 1. Clone this repository
 2. Rename `.env.example` to `.env` and update with own substitutions.
-3. Then run `npm install && nodemon server.js`
-4. Application should be accessible on `localhost:3333`
-5. Get [Postman](https://www.getpostman.com) and start testing the API
+3. Install node packages `npm install`
+4. You will need to install [MongoDB](https://docs.mongodb.com/manual/administration/install-community/)
+5. Then create a directory `./data/db/`
+6. Then run `npm run server`
+7. You can now run `npm start`
+8. The application should be accessible on `localhost:3333`
+
+_Note_:: Get [Postman](https://www.getpostman.com) and start testing the API
 
 ## Acknowledgements
 * Prosper Otemuyiwa - [unicodeveloper](https://github.com/unicodeveloper)
