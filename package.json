@@ -1,0 +1,35 @@
+{
+    "name": "PWA-api",
+    "version": "1.0.0",
+    "description": "API for PWA Example",
+    "main": "server.js",
+    "engines": {
+        "node": "0.12.7"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lmcjt37/pwa-api.git"
+    },
+    "keywords": [
+        "pwa",
+        "api",
+        "pwa-api",
+        "mongodb",
+        "express"
+    ],
+    "author": "Luke Taylor",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.12.4",
+        "cors": "^2.7.1",
+        "dotenv": "^1.1.0",
+        "express": "^4.12.4",
+        "lodash": "^3.10.0",
+        "mongoose": "^4.0.5",
+        "morgan": "^1.5.3",
+        "node-gcm": "^0.14.4"
+    }
+}
