@@ -4,7 +4,8 @@
     "description": "API for PWA Example",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "server": "mongod --dbpath ./data/db/"
     },
     "repository": {
         "type": "git",
