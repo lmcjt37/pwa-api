@@ -3,9 +3,6 @@
     "version": "1.0.0",
     "description": "API for PWA Example",
     "main": "server.js",
-    "engines": {
-        "node": "0.12.7"
-    },
     "scripts": {
         "start": "node server.js"
     },
